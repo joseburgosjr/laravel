@@ -1,9 +1,10 @@
-//  FilterableProjectTable
-  //  FilterBar
-  //  ProjectsTable
-    //  ProjectTableHeading
-    //  ProjectRow
-
+/*
+FilterableProjectTable
+  FilterBar
+  ProjectsTable
+    ProjectTableHeading
+    ProjectRow
+*/
 var ProjectTableHeading = React.createClass({
   render: function () {
     return (
