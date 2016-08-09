@@ -155,7 +155,7 @@ return [
         SyncWeb\Providers\AuthServiceProvider::class,
         SyncWeb\Providers\EventServiceProvider::class,
         SyncWeb\Providers\RouteServiceProvider::class,
-        Laratash\LaratashServiceProvider::class,
+        Laratash\LaratashServiceProvider::class
 
     ],
 
@@ -201,7 +201,7 @@ return [
         'Storage' => Illuminate\Support\Facades\Storage::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class,
+        'View' => Illuminate\Support\Facades\View::class
 
     ],
 

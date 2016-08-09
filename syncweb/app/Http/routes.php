@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function () {
+    return view('test', ['message' => 'Hello World']);
+});
+
 //  Projects
 //Route::resource('/projects', 'ProjectController');
+Route::get('/projects/', 'ProjectController@list');
 Route::get('/projects/{oid}', 'ProjectController@show');

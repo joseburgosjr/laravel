@@ -37,4 +37,13 @@ class ProjectController extends Controller {
    * - destroy
    */
   public function destroy($id) {}
+  
+  public function list() { 
+    $data = json_encode([]);
+    return response($data)
+      ->withHeaders([
+        'Content-Type' => 'application/json',
+        'Content-Length' => strlen($data)
+      ]);
+  }
 }
